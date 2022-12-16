@@ -1,0 +1,12 @@
+######-- Para correr de forma "manual" --######
+# cambiar numero
+
+Rscript --vanilla BetaMixture.R 1
+
+######-- Para utilizar el script --######
+
+sbatch --export=ALL script.sh
+
+######-- Para darle permisos de administrador al script --######
+
+chmod 755 script.sh
